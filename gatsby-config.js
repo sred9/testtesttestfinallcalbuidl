@@ -6,7 +6,9 @@
         `gatsby-source-data`,
 	`gatsby-plugin-catch-links`,
 	`gatsby-plugin-manifest`,
-	'gatsby-plugin-netlify-cache',
+	`gatsby-plugin-netlify-cache`,
+
+
 	
 
 
@@ -55,6 +57,16 @@
         display: `standalone`,
       },
     },
+	{
+    resolve: "gatsby-plugin-preconnect",
+    options: {
+      domains: [
+        "https://fonts.googleapis.com",
+        "https://cdnjs.cloudflare.com",
+	"https://cdn.rawgit.com",
+      ]
+    }
+  },
 
     ],
 };

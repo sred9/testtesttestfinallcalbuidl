@@ -17,6 +17,7 @@
     "gatsby-plugin-catch-links": "^2.1.26",
     "gatsby-plugin-manifest": "^2.2.42",
     "gatsby-plugin-netlify-cache": "^1.2.0",
+    "gatsby-plugin-preconnect": "^1.0.5",
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-plugin-remove-serviceworker": "^1.0.0",
     "gatsby-source-filesystem": "2.0.28",
