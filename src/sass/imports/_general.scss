@@ -629,10 +629,10 @@ display:none;
 }
 .site-nav-inside input + label:after {
   cursor: pointer;
-  content: ' 🌙';
+  content: ' 🌓';
 }
 .site-nav-inside input + label:hover:after {
 }
 .site-nav-inside input:checked + label:after {
-  content: ' 🔆️';
+  content: ' ☀️';
 }
