@@ -7,9 +7,11 @@
 	`gatsby-plugin-catch-links`,
 	`gatsby-plugin-manifest`,
 	`gatsby-plugin-netlify-cache`,
-
-
+	`gatsby-plugin-dark-mode`,
 	
+
+
+
 
 
         {
@@ -35,7 +37,7 @@
         {
             resolve: `gatsby-remark-page-creator`,
             options: {
-                
+
             }
         },
         {
@@ -70,4 +72,3 @@
 
     ],
 };
-

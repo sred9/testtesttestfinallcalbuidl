@@ -17,7 +17,7 @@ export default class Footer extends React.Component {
                     <Link key={link_idx} to={_.get(link, 'url')} {...(_.get(link, 'new_window') ? {target: '_blank', rel: 'noopener'} : null)}>{_.get(link, 'text')}</Link>.
                     </React.Fragment>))}
                   </p>
-                  {_.get(this.props, 'pageContext.site.data.footer.has_social') && 
+                  {_.get(this.props, 'pageContext.site.data.footer.has_social') &&
                     <Social {...this.props} />
                   }
                 </div>

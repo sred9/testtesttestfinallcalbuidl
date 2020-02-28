@@ -4,17 +4,17 @@
  */
 
  .site-header {
-  background: #F7F8FA;
+  background: var(--navBg);
   padding-bottom: 0.7em;
   padding-top: 0.7em;
   border-bottom: 1px solid #e9edf1;
   position: sticky;
   top: 0;
   z-index: 1000;
-  
-  width: 88%;
+
+  width: initial;
   margin: 0 auto;
-  border-bottom: .1rem solid rgba(14,30,37,.054);
+  border-bottom: .1rem solid var(--border);
   align-items:center;
 }
 
@@ -25,6 +25,7 @@
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+  margin: 0 1.25rem;
 }
 
 .site-branding {
@@ -178,7 +179,7 @@ font-family: 'Roboto', ;
       display: none;
     }
 
-    
+
   }
 }
 
@@ -199,7 +200,7 @@ font-family: 'Roboto', ;
     -webkit-transition: opacity .15s ease-in-out,visibility 0s ease-in-out .15s;
     transition: opacity .15s ease-in-out,visibility 0s ease-in-out .15s;
     visibility: hidden;
-    width: 100%;
+    width: initial;
     z-index: 998;
   }
 
