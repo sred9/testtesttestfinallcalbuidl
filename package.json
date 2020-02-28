@@ -20,7 +20,6 @@
     "gatsby-plugin-preconnect": "^1.0.5",
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-plugin-remove-serviceworker": "^1.0.0",
-    "gatsby-plugin-sw": "^1.0.1",
     "gatsby-source-filesystem": "2.0.28",
     "gatsby-transformer-remark": "2.3.8",
     "js-yaml": "^3.13.1",
