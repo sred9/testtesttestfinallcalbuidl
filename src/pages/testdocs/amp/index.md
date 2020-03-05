@@ -1,12 +1,10 @@
 ---
-title: Welcome to Libris ding dong
-excerpt: this is expert ding dong
-
+title: Welcome to Libris
 menus:
   main:
     title: Docs
     weight: 2
-template: testdocs
+template: docs
 ---
 <a href="/docs/manage-content/">Manage Content</a>
 <Link

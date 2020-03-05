@@ -8,7 +8,7 @@
 	`gatsby-plugin-manifest`,
 	`gatsby-plugin-netlify-cache`,
 	`gatsby-plugin-dark-mode`,
-	
+
 
 
 
@@ -69,6 +69,23 @@
       ]
     }
   },
+	{
+  resolve: `gatsby-plugin-amp`,
+  options: {
+    analytics: {
+      type: 'gtag',
+      dataCredentials: 'include',
+      config: {
+      },
+    },
+    canonicalBaseUrl: 'localhost:8000/',
+    components: ['amp-form'],
+    excludedPaths: ['/404*', '/'],
+    pathIdentifier: '/amp/',
+    relAmpHtmlPattern: '{{canonicalBaseUrl}}{{pathname}}{{pathIdentifier}}',
+    useAmpClientIdApi: true,
+  },
+},
 
     ],
 };
