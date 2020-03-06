@@ -27,7 +27,7 @@ export default class Body extends React.Component {
                         
                         
                         
-<meta property="og:url"                content={_.get(this.props, 'pageContext.frontmatter.seourl')} />
+<meta property="og:url"                content={props.location.pathname} />
 <meta property="og:type"               content="article" />
 <meta property="og:title"              content={_.get(this.props, 'pageContext.frontmatter.title')} />
 <meta property="og:description"        content={_.get(this.props, 'pageContext.frontmatter.excerpt')} />
