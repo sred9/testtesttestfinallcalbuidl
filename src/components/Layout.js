@@ -18,7 +18,7 @@ export default class Body extends React.Component {
                     <title>{_.get(this.props, 'pageContext.frontmatter.title') && _.get(this.props, 'pageContext.frontmatter.title') + ' - '}{_.get(this.props, 'pageContext.site.siteMetadata.title')}</title>
                     <meta charSet="utf-8"/>
                     <meta name="description" content={_.get(this.props, 'pageContext.frontmatter.excerpt')}/>
-                              
+                           
 
                     <meta name="viewport" content="width=device-width, initialScale=1.0" />
                     <meta name="google" content="notranslate" />
@@ -27,13 +27,17 @@ export default class Body extends React.Component {
                         
                         
                         
-<meta property="og:url"                content={props.location.pathname} />
+<meta property="og:url"                content={_.get(this.props, 'pageContext.frontmatter.seourl')} />
 <meta property="og:type"               content="article" />
 <meta property="og:title"              content={_.get(this.props, 'pageContext.frontmatter.title')} />
 <meta property="og:description"        content={_.get(this.props, 'pageContext.frontmatter.excerpt')} />
 <meta property="og:image"              content={_.get(this.props, 'pageContext.frontmatter.image')} />
                         
-                        
+  <meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@flickr" />
+<meta name="twitter:title" content={_.get(this.props, 'pageContext.frontmatter.title')} />
+<meta name="twitter:description" content={_.get(this.props, 'pageContext.frontmatter.excerpt')} />
+<meta name="twitter:image" content={_.get(this.props, 'pageContext.frontmatter.image')} />                      
                         
                         
                         
