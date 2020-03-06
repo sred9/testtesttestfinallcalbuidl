@@ -11,7 +11,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 
 export default class Body extends React.Component {
     render() {
-            const excerpt = pageContext.frontmatter.excerpt;
+            const excerpt = frontmatter.excerpt;
 
         return (
             <React.Fragment>
