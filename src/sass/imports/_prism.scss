@@ -162,8 +162,12 @@ div.code-toolbar > .toolbar span {
   display: block;
   font-size: .75em;
   line-height: 1.5;
-  padding: .25em .5em;
+  padding: .5em .5em;
+  margin: .5em;
+  border-radius: 5px;
 }
+
+
 
 div.code-toolbar > .toolbar a:hover,
 div.code-toolbar > .toolbar a:focus,
