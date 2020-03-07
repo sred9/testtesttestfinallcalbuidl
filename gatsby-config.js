@@ -78,7 +78,7 @@
       config: {
       },
     },
-    canonicalBaseUrl: 'localhost:8000/',
+    canonicalBaseUrl: 'https://sharp-pike-48a08f.netlify.com/',
     components: ['amp-form'],
     excludedPaths: ['/404*', '/'],
     pathIdentifier: '/amp/',
