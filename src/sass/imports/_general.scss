@@ -624,10 +624,16 @@ padding: 0 0 0 1.5em;
 
 label.dark-toggle{
 display: inline-block;
+font-weight:18px;
+line-height: 400;
+}
+svg.dark-toggle{
+fill:var(--textNormal);
 }
 
 .site-nav-inside input {
 display:none;
+	
 }
 .site-nav-inside input + label:after {
   cursor: pointer;
