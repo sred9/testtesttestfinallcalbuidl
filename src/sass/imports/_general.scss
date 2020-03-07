@@ -343,7 +343,8 @@ a.button {
   display: inline-block;
   font-size: 0.875rem;
   font-weight: bold;
-  height: 3.25em;
+ 
+  height: fit-content;
   letter-spacing: 0.025em;
   line-height: 1.5;
   padding: 0.25em 40px;
