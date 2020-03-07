@@ -632,6 +632,9 @@ label.dark-toggle svg{
 fill :var(--textNormal);
 top: 18px;
 position: absolute;
+padding: 0 0.75rem;
+border-left: 2px solid rgba(14,30,37,.09);
+	
 }
 label.dark-toggle label{
 padding:0;
