@@ -622,7 +622,9 @@ padding: 0 0 0 1.5em;
     box-shadow: #469E46 0px 10px 20px -16px;
 }
 
-
+label.dark-toggle{
+display: inline-block;
+}
 
 .site-nav-inside input {
 display:none;
@@ -630,9 +632,13 @@ display:none;
 .site-nav-inside input + label:after {
   cursor: pointer;
   content: ' 🌓';
+  line-height:18px;
+  font-weight: 400;
 }
 .site-nav-inside input + label:hover:after {
 }
 .site-nav-inside input:checked + label:after {
   content: ' ☀️';
+  line-height:18px;
+  font-weight: 400;
 }
