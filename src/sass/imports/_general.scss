@@ -625,10 +625,11 @@ padding: 0 0 0 1.5em;
 label.dark-toggle{
 display: inline-block;
 font-weight:18px;
-line-height: 400;
+line-height: 18px;
+font-weight:400;
 }
-svg.dark-toggle{
-color:var(--textNormal);
+label.dark-toggle svg{
+fill :var(--textNormal);
 }
 
 .site-nav-inside input {
