@@ -630,13 +630,20 @@ font-weight:400;
 }
 label.dark-toggle svg{
 fill :var(--textNormal);
+top: 17px;
+position: absolute;
+}
+label.dark-toggle svg:hover{
+fill :#fff;
+top: 17px;
+position: absolute;
 }
 
 .site-nav-inside input {
 display:none;
 	
 }
-.site-nav-inside input + label:after {
+/*.site-nav-inside input + label:after {
   cursor: pointer;
   content: ' 🌓';
   line-height:18px;
@@ -648,4 +655,4 @@ display:none;
   content: ' ☀️';
   line-height:18px;
   font-weight: 400;
-}
+}*/
