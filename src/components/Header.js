@@ -34,7 +34,10 @@ export default class Header extends React.Component {
 
 
 
-      <ThemeToggler>
+                    </div>
+                  </nav>
+                   <div class="dark-toggle">
+                       <ThemeToggler>
         {({ theme, toggleTheme }) => (
           <label class="dark-toggle">
             <input class="dark-toggle"
@@ -49,15 +52,8 @@ export default class Header extends React.Component {
           </label>
         )}
       </ThemeToggler>
-
-
-
-
-
-
-
-                    </div>
-                  </nav>
+                       </div>
+                   
                   <button id="menu-open" className="menu-toggle"><span className="screen-reader-text">Close Menu</span><span className="icon-menu" aria-hidden="true" /></button>
                   </React.Fragment>}
                 </div>
