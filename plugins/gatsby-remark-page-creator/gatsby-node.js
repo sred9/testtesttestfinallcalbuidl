@@ -117,6 +117,16 @@ exports.createPages = ({graphql, getNode, actions, getNodesByType}) => {
             if (existingPageNode) {
                 deletePage(existingPageNode);
             }
+                    nodes.forEach(graphQLNode => {
+            const node = getNode(graphQLNode.id);
+            const url = node.fields.url/amp/;
+            const template = node.frontmatter.template;
+            const component = path.resolve(`./src/templates/${template}.amp.js`);
+
+            const existingPageNode = _.get(sitePageNodesByPath, url);
+            if (existingPageNode) {
+                deletePage(existingPageNode);
+            }
 
             const page = {
                 path: url,
