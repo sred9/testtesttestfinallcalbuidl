@@ -33,6 +33,7 @@ pre[class*="language-"] {
   margin: 0 0 1.875rem;
   overflow: auto;
   padding: 1rem;
+    border-radius: 5px;
 }
 
 :not(pre) > code[class*="language-"],
@@ -162,7 +163,7 @@ div.code-toolbar > .toolbar span {
   display: block;
   font-size: .75em;
   line-height: 1.5;
-  padding: .5em .5em;
+  padding: .35em .35em;
   margin: .5em;
   border-radius: 5px;
 }
