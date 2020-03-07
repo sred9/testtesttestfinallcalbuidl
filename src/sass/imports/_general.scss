@@ -632,6 +632,8 @@ label.dark-toggle svg{
 fill :var(--textNormal);
 margin-top: 4px;
 position:inherit ;
+vertical-align: bottom;
+
 padding: 0 0.75rem;
 border-left: 2px solid rgba(14,30,37,.09);
 	
@@ -644,6 +646,9 @@ padding:0;
 label.dark-toggle input.dark-toggle {
 display:none;
 	
+}
+.dark-toggle{
+margin-left:auto;
 }
 /*.site-nav-inside input + label:after {
   cursor: pointer;
