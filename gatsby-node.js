@@ -9,7 +9,7 @@ _.each(posts, (post, index) => {
 
   createPage({
     path: post.node.fields.slug,
-    component: path.resolve('./src/templates/post.js'),
+    component: path.resolve('./src/templates/docs.js'),
     context: {
       slug: post.node.fields.slug,
       previous,
@@ -19,7 +19,7 @@ _.each(posts, (post, index) => {
 
   createPage({
     path: `${post.node.fields.slug}/amp`,
-    component: path.resolve('./src/templates/post.amp.js'),
+    component: path.resolve('./src/templates/docs.amp.js'),
     context: {
       slug: post.node.fields.slug,
       previous,
