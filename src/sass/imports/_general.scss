@@ -633,11 +633,10 @@ fill :var(--textNormal);
 top: 18px;
 position: absolute;
 }
-label.dark-toggle svg:hover{
-fill :#fff;
-top: 18px;
-position: absolute;
+label.dark-toggle label{
+padding:0;
 }
+
 
 .site-nav-inside input {
 display:none;
