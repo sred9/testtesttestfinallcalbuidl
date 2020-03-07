@@ -36,8 +36,8 @@ export default class Header extends React.Component {
 
       <ThemeToggler>
         {({ theme, toggleTheme }) => (
-          <label>
-            <input
+          <label class="dark-toggle">
+            <input class="dark-toggle"
               type="checkbox" id="checkbox"
               onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
               checked={theme === 'dark'}
