@@ -3,7 +3,6 @@
  *
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
-<script>
 const path = require("path");
 const {createFilePath} = require("gatsby-source-filesystem");
 const _ = require('lodash');
@@ -154,4 +153,3 @@ exports.createPages = ({graphql, getNode, actions, getNodesByType}) => {
     });
 };
 
-</script>
