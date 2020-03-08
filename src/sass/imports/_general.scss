@@ -639,6 +639,10 @@ padding: 0 0.75rem;
 border-left: 2px solid rgba(14,30,37,.09);
 	
 }
+
+label.dark-toggle svg:hover{
+cursor:pointer;	
+}
 label.dark-toggle label{
 padding:0;
 }
@@ -661,6 +665,6 @@ margin-left:auto;
 	padding: 0 0.75rem;
 }
 
-.dark-toggle ul.right-menu li.menu-item{
+.dark-toggle ul.right-menu li.menu-item a{
 color: var(--navLink)
 }
