@@ -652,29 +652,16 @@ display:none;
 .dark-toggle{
 margin-left:auto;
 }
-/*.site-nav-inside input + label:after {
-  cursor: pointer;
-  content: ' 🌓';
-  line-height:18px;
-  font-weight: 400;
-}
-.site-nav-inside input + label:hover:after {
-}
-.site-nav-inside input:checked + label:after {
-  content: ' ☀️';
-  line-height:18px;
-  font-weight: 400;
-}*/
 
 
 
-ul.right-menu{
+.dark-toggle ul.right-menu{
     display: inline-block;
     font-size: 18px;
     line-height: 18px;
     vertical-align: super;
 }
 
-ul.right-menu li.menu-item{
+.dark-toggle ul.right-menu li.menu-item{
 color: var(--navLink)
 }
