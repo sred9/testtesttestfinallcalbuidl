@@ -37,6 +37,10 @@ export default class Header extends React.Component {
                     </div>
                   </nav>
                    <div class="dark-toggle">
+                       
+                       <ul class="right-menu"><li class="menu-item"><a href="/blog/">Blog</a></li></ul>
+                       
+                       
                        <ThemeToggler>
         {({ theme, toggleTheme }) => (
           <label class="dark-toggle">
