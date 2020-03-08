@@ -11,7 +11,7 @@ $font: (
 $palette: (
   primary:           rgba(14, 30, 37, 0.87),
   secondary:         rgba(14, 30, 37, 0.87),
-  meta:              #67758d,
+  meta:              var(--navLink),
   border:            #dee5ef,
   bg:                #f6f6f6,
   note:              #fcb41d,
