@@ -38,7 +38,7 @@ export default class Header extends React.Component {
                   </nav>
                    <div class="dark-toggle">
                        
-                       <ul class="right-menu"><li class="menu-item"><a href="/blog/">Blog</a></li></ul>
+                       <ul class="right-menu"><li class="menu-item"><a href="/join-us/">Join us</a></li></ul>
                        
                        
                        <ThemeToggler>
