@@ -632,7 +632,7 @@ font-weight:400;
 }
 label.dark-toggle svg{
 fill :var(--textNormal);
-margin-top: 6px;
+margin-top: 0px;
 position:inherit ;
 vertical-align: bottom;
 
@@ -665,3 +665,16 @@ margin-left:auto;
   line-height:18px;
   font-weight: 400;
 }*/
+
+
+
+ul.right-menu{
+    display: inline-block;
+    font-size: 18px;
+    line-height: 18px;
+    vertical-align: super;
+}
+
+ul.right-menu li.menu-item{
+color: var(--navLink)
+}
