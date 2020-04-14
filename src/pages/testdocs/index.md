@@ -1,7 +1,7 @@
 ---
 title: Welcome to Libris ding dong
 excerpt: this is expert ding dong
-url: https://relaxed-shannon-06721b.netlify.com/testdocs/
+metaurl: https://relaxed-shannon-06721b.netlify.com/testdocs/
 image: https://media.geeksforgeeks.org/wp-content/uploads/cite.png
 
 menus:
